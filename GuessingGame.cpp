@@ -33,6 +33,8 @@ int main(){
       else{
 	cout << "Im thinking of a number between 0 and 100" << endl;
 	cout << "Try to guess it!" << endl;
+	guesCount = 0;
+	int number = rand() %101;
       }
     }
   guessCount++;
