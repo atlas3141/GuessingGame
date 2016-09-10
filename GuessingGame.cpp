@@ -26,14 +26,13 @@ int main(){
       cout << "It took you  " << guessCount << " tries" << endl;\
       cout << "Do you want to play again (y/n)" << endl;
       cin >> input;
-      cout << input << endl;
       if(strcmp(input,"y")){ //ask if they want to play agian
 	  playing = false;
       }
       else{
 	cout << "Im thinking of a number between 0 and 100" << endl;
 	cout << "Try to guess it!" << endl;
-	guesCount = 0;
+	guessCount = 0;
 	int number = rand() %101;
       }
     }
