@@ -1,3 +1,6 @@
+/*September 9, GuessingGame, Josh Howell
+  A simple command line guessing Game*/
+
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
