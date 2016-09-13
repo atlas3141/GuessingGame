@@ -10,7 +10,7 @@ using namespace std;
 int main(){
   srand(time(NULL)); //sets the random seed
   int number = rand() %101; //creates the random number
-  char input[2];
+  char input[20];
   int guess = -1;
   int guessCount = 1;
   bool playing = true;
@@ -42,4 +42,3 @@ int main(){
   guessCount++;
   }
 }
-
