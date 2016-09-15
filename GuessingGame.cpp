@@ -36,7 +36,8 @@ int main(){
 	cout << "Im thinking of a number between 0 and 100" << endl;
 	cout << "Try to guess it!" << endl;
 	guessCount = 0;
-	int number = rand() %101;
+	srand(time(NULL)); //sets the random seed
+	number = rand() %101; //creates the random number
       }
     }
   guessCount++;
